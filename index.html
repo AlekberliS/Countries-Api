@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Countries api</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+ 
+  </head>
+  <body>
+    <!-- Header Section -->
+    <header class="header-content">
+      <div class="container header-container">
+        <div class="header-container--title">
+          <a href="./detail.html">Where in the world?</a>
+        </div>
+        <div class="header-container--theme">
+          <img
+            src="./assets/image/light-moon.svg"
+            alt="dark theme image"
+            class="light-theme--moon"
+          />
+          <p class="light-theme--title">Dark Mode</p>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Section -->
+    <main class="main-content">
+      <!-- Section One -->
+      <section class="main-header--section">
+        <div class="container main-header--container">
+          <form class="search-content">
+            <button type="submit" class="search-image">
+              <img src="./assets/image/search-icon.svg" alt="" />
+            </button>
+            <input
+              type="text"
+              placeholder="Search for a country…"
+              name="search"
+              class="search-input"
+            />
+          </form>
+          <select class="select-section">
+            <option value="">Filter by Region</option>
+            <option value="Africa">Africa</option>
+            <option value="America">America</option>
+            <option value="Asia">Asia</option>
+            <option value="Europe">Europe</option>
+            <option value="Oceania">Oceania</option>
+          </select>
+        </div>
+      </section>
+
+      <!-- Section Two -->
+      <section class="main-body--section">
+        <div class="container main-body--container"></div>
+      </section>
+    </main>
+    <script src="./app.js"></script>
+  </body>
+</html>
